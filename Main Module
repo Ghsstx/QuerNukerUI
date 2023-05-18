@@ -1,0 +1,459 @@
+local PROJECTQN = Instance.new("ScreenGui")
+
+local Frame = Instance.new("Frame")
+
+local TextTitle = Instance.new("TextLabel")
+
+local YourTitleHere = Instance.new("TextLabel")
+
+local TextButton = Instance.new("TextButton")
+
+local TextButton_2 = Instance.new("TextButton")
+
+local TextButton_3 = Instance.new("TextButton")
+
+local TextButton_4 = Instance.new("TextButton")
+
+local TextButton_5 = Instance.new("TextButton")
+
+local TextButton_6 = Instance.new("TextButton")
+
+local TextButton_7 = Instance.new("TextButton")
+
+local TextButton_8 = Instance.new("TextButton")
+
+local TextButton_9 = Instance.new("TextButton")
+
+local Aimlock = Instance.new("Frame")
+
+local TextLabel = Instance.new("TextLabel")
+
+local TextLabel_2 = Instance.new("TextLabel")
+
+local TextLabel_3 = Instance.new("TextLabel")
+
+local TextButton_10 = Instance.new("TextButton")
+
+local TextButton_11 = Instance.new("TextButton")
+
+local UICorner = Instance.new("UICorner")
+
+PROJECTQN.Name = "PROJECT QN"
+
+PROJECTQN.Parent = game.CoreGui
+
+Frame.Parent = PROJECTQN
+
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+
+Frame.Position = UDim2.new(0.512276709, 0, 0.424680889, 0)
+
+Frame.Size = UDim2.new(0, 405, 0, 252)
+
+Frame.Active = true
+
+Frame.Draggable = true
+
+TextTitle.Name = "TextTitle"
+
+TextTitle.Parent = Frame
+
+TextTitle.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+
+TextTitle.BorderColor3 = Color3.fromRGB(27, 42, 53)
+
+TextTitle.Size = UDim2.new(0, 405, 0, 18)
+
+TextTitle.Font = Enum.Font.SourceSans
+
+TextTitle.Text = ""
+
+TextTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+TextTitle.TextSize = 14.000
+
+YourTitleHere.Name = "Your Title Here"
+
+YourTitleHere.Parent = TextTitle
+
+YourTitleHere.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+
+YourTitleHere.BorderColor3 = Color3.fromRGB(61, 61, 61)
+
+YourTitleHere.Position = UDim2.new(0.00493827183, 0, 0.111111112, 0)
+
+YourTitleHere.Size = UDim2.new(0, 127, 0, 14)
+
+YourTitleHere.Font = Enum.Font.SourceSans
+
+YourTitleHere.Text = "â˘ Quer Nuker Hub [Beta]"
+
+YourTitleHere.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+YourTitleHere.TextSize = 14.000
+
+TextButton.Parent = Frame
+
+TextButton.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton.Position = UDim2.new(0.00409356691, 0, 0.171738133, 0)
+
+TextButton.Size = UDim2.new(0, 71, 0, 19)
+
+TextButton.Font = Enum.Font.SourceSans
+
+TextButton.Text = "Silent Aim"
+
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton.TextSize = 14.000
+
+TextButton.MouseButton1Down:connect(function()
+
+	print('Working')end)
+
+TextButton_2.Parent = Frame
+
+TextButton_2.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_2.Position = UDim2.new(0.00409356691, 0, 0.271323204, 0)
+
+TextButton_2.Size = UDim2.new(0, 71, 0, 19)
+
+TextButton_2.Font = Enum.Font.SourceSans
+
+TextButton_2.Text = "Visuals"
+
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_2.TextSize = 14.000
+
+TextButton_2.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+TextButton_3.Parent = Frame
+
+TextButton_3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_3.Position = UDim2.new(0.00409356691, 0, 0.37090826, 0)
+
+TextButton_3.Size = UDim2.new(0, 71, 0, 21)
+
+TextButton_3.Font = Enum.Font.SourceSans
+
+TextButton_3.Text = "AutoBuy"
+
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_3.TextSize = 14.000
+
+TextButton_3.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+TextButton_4.Parent = Frame
+
+TextButton_4.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_4.Position = UDim2.new(0.00409356691, 0, 0.478792071, 0)
+
+TextButton_4.Size = UDim2.new(0, 71, 0, 21)
+
+TextButton_4.Font = Enum.Font.SourceSans
+
+TextButton_4.Text = "Premium"
+
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_4.TextSize = 14.000
+
+TextButton_4.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+TextButton_5.Parent = Frame
+
+TextButton_5.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_5.Position = UDim2.new(0.00409356691, 0, 0.586675942, 0)
+
+TextButton_5.Size = UDim2.new(0, 71, 0, 21)
+
+TextButton_5.Font = Enum.Font.SourceSans
+
+TextButton_5.Text = "Fun Stuff"
+
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_5.TextSize = 14.000
+
+TextButton_5.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+TextButton_6.Parent = Frame
+
+TextButton_6.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_6.Position = UDim2.new(0.00409342442, 0, 0.694740891, 0)
+
+TextButton_6.Size = UDim2.new(0, 71, 0, 22)
+
+TextButton_6.Font = Enum.Font.SourceSans
+
+TextButton_6.Text = "Teleports"
+
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_6.TextSize = 14.000
+
+TextButton_6.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+TextButton_7.Parent = Frame
+
+TextButton_7.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_7.Position = UDim2.new(0.00409342442, 0, 0.80677408, 0)
+
+TextButton_7.Size = UDim2.new(0, 71, 0, 22)
+
+TextButton_7.Font = Enum.Font.SourceSans
+
+TextButton_7.Text = "Fov"
+
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_7.TextSize = 14.000
+
+TextButton_7.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+TextButton_8.Parent = Frame
+
+TextButton_8.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_8.Position = UDim2.new(0.00409342442, 0, 0.914657831, 0)
+
+TextButton_8.Size = UDim2.new(0, 71, 0, 21)
+
+TextButton_8.Font = Enum.Font.SourceSans
+
+TextButton_8.Text = "Credits"
+
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_8.TextSize = 14.000
+
+TextButton_8.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+TextButton_9.Parent = Frame
+
+TextButton_9.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_9.Position = UDim2.new(0.00409342442, 0, 0.0761212558, 0)
+
+TextButton_9.Size = UDim2.new(0, 71, 0, 18)
+
+TextButton_9.Font = Enum.Font.SourceSans
+
+TextButton_9.Text = "Aimlock"
+
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_9.TextSize = 14.000
+
+TextButton_9.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+Aimlock.Name = "Aimlock"
+
+Aimlock.Parent = Frame
+
+Aimlock.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+
+Aimlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+
+Aimlock.Position = UDim2.new(0.192592591, 0, 0.0873015895, 0)
+
+Aimlock.Size = UDim2.new(0, 324, 0, 227)
+
+Aimlock.Active = true
+
+TextLabel.Parent = Aimlock
+
+TextLabel.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel.BorderColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel.Position = UDim2.new(0.00617283955, 0, 0.00881057233, 0)
+
+TextLabel.Size = UDim2.new(0, 47, 0, 11)
+
+TextLabel.Font = Enum.Font.SourceSans
+
+TextLabel.Text = "Aimlock:"
+
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Aimlock
+
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel_2.BorderColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel_2.Position = UDim2.new(0.0123456791, 0, 0.0792951509, 0)
+
+TextLabel_2.Size = UDim2.new(0, 316, 0, 15)
+
+TextLabel_2.Font = Enum.Font.SourceSans
+
+TextLabel_2.Text = ""
+
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = TextLabel_2
+
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel_3.BorderColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel_3.Position = UDim2.new(0.00632911408, 0, 0.130436197, 0)
+
+TextLabel_3.Size = UDim2.new(0, 70, 0, 11)
+
+TextLabel_3.Font = Enum.Font.SourceSans
+
+TextLabel_3.Text = "Blue Aimlock"
+
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_3.TextSize = 14.000
+
+TextButton_10.Parent = TextLabel_2
+
+TextButton_10.BackgroundColor3 = Color3.fromRGB(115, 255, 0)
+
+TextButton_10.BorderColor3 = Color3.fromRGB(102, 255, 0)
+
+TextButton_10.Position = UDim2.new(0.952531636, 0, 0.13333334, 0)
+
+TextButton_10.Size = UDim2.new(0, 11, 0, 10)
+
+TextButton_10.Font = Enum.Font.SourceSans
+
+TextButton_10.Text = ""
+
+TextButton_10.TextColor3 = Color3.fromRGB(34, 255, 0)
+
+TextButton_10.TextSize = 14.000
+
+TextButton_10.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+TextButton_11.Parent = PROJECTQN
+
+TextButton_11.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_11.BorderColor3 = Color3.fromRGB(68, 68, 68)
+
+TextButton_11.Position = UDim2.new(0.718208075, 0, 0.503744245, 0)
+
+TextButton_11.Size = UDim2.new(0, 61, 0, 53)
+
+TextButton_11.Font = Enum.Font.SourceSans
+
+TextButton_11.Text = ""
+
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_11.TextSize = 14.000
+
+TextButton_11.MouseButton1Down:connect(function()
+
+	print('Working')
+
+end)
+
+UICorner.Parent = TextButton_11
+
+local function BEUEXJ_fake_script() -- TextButton_11.LocalScript 
+
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	Frame = script.Parent.Parent.Frame
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+		Frame.Visible = not Frame.Visible
+
+	end)
+
+	
+
+	local Frame = game.StarterGui.ScreenGui.Frame.Visible
+
+	if Frame == true then
+
+	
+
+		script.Parent.MouseButton1Click:Connect(function()
+
+			Frame = false
+
+		end)
+
+	
+
+	end
+
+	if Frame == false then
+
+	
+
+		script.Parent.MouseButton1Click:Connect(function()
+
+			Frame = true
+
+		end)
+
+	
+
+	end
+
+	
+
+end
+
+coroutine.wrap(BEUEXJ_fake_script)()
